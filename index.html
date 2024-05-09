@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <script src="Magic Social Share Menu/script.js"></script>
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+            <div class="container">
+                <a class='navbar-brand logo' href='index_1.html'>
+                        <h1 style="color: #fff; font-size: 1.8rem;">AMEN</h1>
+                    </a>
+                    
+                <div class="collaps navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Achievements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="New folder/index.html" class="nav-link">LOGIN OR SINGUP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="home-bg section h-100vh" id="home">
+            <div class="bg-overlay"></div>
+                <div class="container z-index">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <div class="text-white text-center">
+                                <h4>Hello & Welcome</h4>
+                                <h1 class="header_title mb-0 mt-3">I Am <br><span class="element fw-bold" data-elements="Amen Allah,15 years old,A Devloper,A designer"></span></h1>
+                                <ul class="social_home list-unstyled text-center pt-4">
+                                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-facebook"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-dribbble"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-google-plus"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)"><i class="mdi mdi-twitter"></i></a></li>
+                                </ul>
+                                <div class="header_btn">
+                                    <a href="javascript:void(0)" class="btn btn-outline-custom btn-rounded mt-4">Download CV</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="scroll_down">
+                <a href="#about" class="scroll">
+                    <i class="mbri-arrow-down text-white"></i>
+                </a>
+            </div>
+        </section>
+          <!-- partial -->
+            <script src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js'></script>
+          <script src='https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js'></script><script  src="./script.js"></script>
+          
+
+
+
+         <script src="assets/js/jquery.min.js"></script>
+         <script src="assets/js/typed.js"></script>         
+        <script>
+            $(".element").each(function() {
+                var $this = $(this);
+                $this.typed({
+                    strings: $this.attr('data-elements').split(','),
+                    typeSpeed: 100,
+                    backDelay: 3000
+                });
+            });
+        </script>
+    </body>
+</html>
